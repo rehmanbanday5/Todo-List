@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    padding-top: 2%;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+
+form{
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+}
+
+input[type="text"], textarea, select, input[type="file"]{
+    width: 100%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid aqua;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #185a9d;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+button:hover{
+     background: linear-gradient(135deg, #43cea2, #185a9d)
+}
+
+#taskList {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.task {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.task:hover {
+    transform: translateY(-2px);
+}
+
+
+.low { border-left: 5px solid #4CAF50; 
+}
+
+.medium { border-left: 5px solid #FFB300; 
+}
+
+.high { border-left: 5px solid #F44336;
+ }
+
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.completeBtn, .deleteBtn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.completeBtn { background-color: #4CAF50; 
+        color: #fff;
+ }
+
+
+.completeBtn:hover { background-color: #45a049; 
+
+}
+
+.deleteBtn { background-color: #F44336;
+     color: #fff; 
+}
+.deleteBtn:hover { background-color: #e53935; 
+}
+
+.task img {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
